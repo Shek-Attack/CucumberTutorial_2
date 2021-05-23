@@ -24,12 +24,12 @@
         Then user should be able to see Dashboad page title
 
         Examples:
-        | username| password |
-        |user10          | UserUser123        |
-        | user15         | UserUser123          |
-        |   user22       |  UserUser123         |
-        |   user110       |  UserUser123         |
-        |    storemanager85      |  UserUser123         |
-        |   storemanager120       |  UserUser123         |
-        |  storemanager110-        | UserUser123          |
+          | username         | password    |
+          | user10           | UserUser123 |
+          | user15           | UserUser123 |
+          | user22           | UserUser123 |
+          | user110          | UserUser123 |
+          | storemanager85   | UserUser123 |
+          | storemanager120  | UserUser123 |
+          | storemanager110- | UserUser123 |
 

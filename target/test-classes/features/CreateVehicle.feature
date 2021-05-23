@@ -9,9 +9,9 @@
       And user clicks on create car button
       Then user enters vehicle information:
 
-         | License Plate|Driver|Location|Model Year| Color|
-         | Shek123      |SDET  |Toronot |2020      |Black |
-         | Java_is_  fun     |User  |Mclean, VA |2019      |Red |
+        | License Plate | Driver | Location   | Model Year | Color |
+        | Shek123       | SDET   | Toronot    | 2020       | Black |
+        | Java_is_  fun | User   | Mclean, VA | 2019       | Red   |
 
 
 

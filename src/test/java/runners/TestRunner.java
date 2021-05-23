@@ -11,10 +11,11 @@ import org.junit.runner.RunWith;
         glue =  "step_definitions",
         dryRun = false,
      //   monochrome = true,
-        tags = "@Scenario_outline"
+       // tags = "@Scenario_outline",
        // tags = "@Scenario_1"
         //tags = "@Scenario_2"
        // tags = "@Scenario_3"
+        plugin = "json:target/cucumber.json"
 )
 public class TestRunner {
 
