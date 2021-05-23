@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features" ,
+        features = "src/test/resources/features",
         glue =  "step_definitions",
         dryRun = false,
      //   monochrome = true,
@@ -15,7 +15,12 @@ import org.junit.runner.RunWith;
        // tags = "@Scenario_1"
         //tags = "@Scenario_2"
        // tags = "@Scenario_3"
-        plugin = "json:target/cucumber.json"
+        plugin = {"pretty:target/cucumber-pretty.txt",
+                "json:target/cucumber.json",
+                "html:target/html-report",
+                "junit:target/junit/unit-report.xml",
+
+        }
 )
 public class TestRunner {
 
