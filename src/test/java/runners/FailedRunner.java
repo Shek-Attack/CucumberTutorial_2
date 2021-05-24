@@ -6,11 +6,12 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-
 @CucumberOptions(
         plugin = {
                 "json:target/cucumber1.json",
                 "html:target/default-html-reports1",
+                "rerun:target/rerun.txt",
+
         },
         features = "src/test/resources/features",
         glue =  "step_definitions",
@@ -22,6 +23,6 @@ import org.junit.runner.RunWith;
         // tags = "@Scenario_3"
 
 )
-public class TestRunner {
+public class FailedRunner {
 
 }
